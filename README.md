@@ -15,4 +15,4 @@
  - Sklearn Linear Regression for *multipleLinear3.ipynb*
  
  ## Result
- the *Attendance* and *SAT* predictor has better result compare to *Rand 1,2,3* Predictor for GPA because *Rand 1,2,3* does not contribute to the model.
+ the *Attendance* and *SAT* predictor has better result compare to *Rand 1,2,3* Predictor for GPA because *Rand 1,2,3* have a 'high' p-value and does not contribute to the model.
