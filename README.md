@@ -15,4 +15,4 @@
  - Sklearn Linear Regression for *multipleLinear3.ipynb*
  
  ## Result
- the *Attendance* and *SAT* predictor has better result compare to *Rand 1,2,3* Predictor for GPA because *Rand 1,2,3* have a 'high' p-value compared *Attendance* and *SAT* p-value and does not contribute to the model.
+ the *Attendance* and *SAT* predictor has better result compare to *Rand 1,2,3* Predictor for GPA because *Rand 1,2,3* have a 'high' p-value compared *Attendance* and *SAT* p-value also *Rand 1,2,3* have a 'Weight' value that very close to zero (-0.00703) and because closer weight value to zero the smaller the impact so the *Rand 1,2,3* variable does not contribute to the model. In the end after trying to drop the *Rand 1,2,3* variable the prediction  almost have same result without droping it and have same result after rounded it up.
